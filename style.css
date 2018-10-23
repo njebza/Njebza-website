@@ -1,0 +1,314 @@
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1rem;
+    font-family: nunito sans,sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #2d2d2d;
+}
+h1 {
+    font-family: nunito sans,sans-serif;
+    font-weight: 800;
+    color: #fff;
+}
+
+@media screen and (min-width: 650px)
+h1 {
+    font-size: 3rem;
+}
+
+h1 {
+    font-size: 2rem;
+    max-width: 90vw;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: grey;
+  font-family: Helvetica Neue, Helvetica;
+  /*background-color: #000;*/
+}
+.site-navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #1d1e25;
+    z-index: 200;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+.background-white{
+  background-color: white;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+
+}
+.button-secondary, a.button-secondary {
+    color: rgba(255,255,255,.8);
+    border: 1px solid rgba(255,255,255,.2);
+    background: -webkit-gradient(linear,left bottom,right top,from(rgba(255,255,255,0.01)),to(rgba(255,255,255,0.05)));
+    background: linear-gradient(to top right,rgba(255,255,255,0.01),rgba(255,255,255,0.05));
+    margin: 5px;
+}
+
+a.button, [type=button], [type=submit], button {
+    display: inline-block;
+    -webkit-appearance: none;
+    -webkit-transition: background 500ms ease;
+    transition: background 500ms ease;
+    background-image: -webkit-gradient(linear,left top,right top,from(#45bafc),color-stop(51%,#57EEA1),to(#45bafc));
+    background-image: linear-gradient(to right,#45bafc 0%,#57EEA1 51%,#45bafc 100%);
+    background-size: 300% auto;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1rem 1.75rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    -webkit-box-shadow: 2px 3px 8px rgba(0,0,0,.1);
+    box-shadow: 2px 3px 8px rgba(0,0,0,.1);
+    cursor: pointer;
+}
+/*profile*/
+  img{
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 2px rgba(200,123,58,0.5);
+    vertical-align: middle;
+    border: 0;
+
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+}
+p.lead {
+    text-align: center;
+    color: #727878;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#profile .row > div {
+    margin-bottom: 20px;
+    text-align: center;
+}
+#profile .row > div img {
+    width: 100%;
+    max-width: 246px;
+    height: auto;
+}
+h2, h3 {
+    font-weight: 300;
+    color: #22A39F;
+}
+h3 {
+    font-size: 28px;
+}
+p {
+    margin: 0 0 10px;
+}
+.col-md-4{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+}
+nav {
+    position: absolute;
+    top: 0px;
+    left:0px;
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+    padding: 0px;
+    margin: 0px;
+  }
+
+    nav .nav-butt {
+      position: absolute;
+      text-decoration: none;
+      color: #fff;
+      left: 50px;
+      top: 20px;
+      }
+    nav ul {
+      list-style: none;
+      position: absolute;
+      right: 50px;
+      top: 0px;
+      width: 400px;
+      }
+nav ul li {
+      position: relative;
+      float: left;
+        margin: 0px 0px 0px 20px;
+        top: 20px
+      }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+    .gray-area {
+      position: relative;
+      top: 28px;
+      width: 100%;
+      height: 500px;
+      background-color: #292C33;
+      padding: 0px;
+      margin: 0px;
+    }
+    .grey-area p {
+    font-size: 1.1rem;
+    margin: 2.5rem 0;
+    color: #bec6d5;
+}
+@media screen and (min-width: 650px)
+  .gray-area p {
+    font-size: 1.2rem;
+}
+
+    .underline{
+
+      color: white;
+      position: relative;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .primary {
+        position: relative;
+        top: 150px;
+        /*color: #fff;*/
+        color: #45bafc;
+      }
+
+    .secondary {
+      position: relative;
+      top: 150px;
+        color: #57eea1;
+      }
+      .underline p {
+    font-size: 1.1rem;
+    margin: 2.5rem 0;
+    color: #bec6d5;
+}
+p, ul, ol, dl {
+    margin: 0 0 1.5rem;
+}
+    .col-md-4{
+      position: relative;
+      background-color: white;
+    }
+    .text-center{
+      background-color: white;
+    }
+    h4 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+/*footer*/
+  footer {
+      position: relative;
+      bottom: 0;
+      left:0px;
+      height: 170px;
+      width: 100%;
+      text-align: center;
+      padding: 2rem 0;
+      background: #292c33;
+      color: #bec6d5;
+      /*background-color: #000;*/
+      border: 1px solid #fff;
+      margin: 100px 0px 0px 0px;
+      box-sizing: border-box;
+      }
+  footer span{
+    position: relative;
+    color: #45bafc;
+  }
+  footer strong{
+    position: relative;
+    color: #57eea1;
+  }
+footer p{
+    font-size: 1.1rem;
+    max-width: 500px;
+    margin: 0 auto 2rem;
+}
+
+
+  .site-footer {
+    text-align: center;
+    padding: 2rem 0;
+    background: #292c33;
+    color: #bec6d5;
+    box-sizing: border-box;
+}
+/*.site-footer h4 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    /*margin: 0 0 1.5rem;*/
+
+    }
+  .container, .small-container {
+    max-width: 1050px;
+    padding: 0 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    
+}
+  .footer-bottom {
+    text-align: center;
+    padding: 2rem 0;
+    background: #1d1e25;
+    color: #909db7;
+}
+  .footer-bottom p {
+    margin-bottom: 0;
+    }
+
+  p, ul, ol, dl {
+    margin: 0 0 1.5rem;
+   }
+
+   a{
+    color: grey;
+   }
+   .social-icons {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.social-icons a {
+    /*color: grey;*/
+    margin: 0.9rem;
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    color: #bec6d5;
+    padding-top: 2;
+}
+div{
+  display: block;
+}
